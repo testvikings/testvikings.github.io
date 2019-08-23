@@ -1,0 +1,8 @@
+title: TestVikings - Software Testing Research and Tools from Gothenburg
+description: We come over land and sea to break your code
+google_analytics: 
+show_downloads: false
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
