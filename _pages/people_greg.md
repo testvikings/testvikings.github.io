@@ -1,4 +1,4 @@
-<h4>Gregory Gay</h4> 
+<h4><strong>Gregory Gay</strong></h4> 
 
 Gregory Gay is an Associate Professor in the Interaction Design and Software Engineering division in the Department of Computer Science and Engineering at Chalmers University of Technology and the University of Gothenburg. His research interests include software testing and analysis, AI and search-based automation of development tasks, and engineering of AI and machine learning-enabled systems - all with the aim of helping developers deliver complex systems in a safe, secure, and efficient manner. 
 

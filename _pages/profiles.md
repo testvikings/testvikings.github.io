@@ -15,7 +15,7 @@ profiles:
     content: people_greg.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>greg@greggay.com</p>
+      <p>greg@greggay.com</p><br>
       <p>Jupiter 481</p>
   - content: people_postdocs.md
   - content: people_phd.md
