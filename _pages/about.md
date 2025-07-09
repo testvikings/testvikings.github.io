@@ -6,7 +6,7 @@ subtitle: <a href='https://www.chalmers.se/en/departments/cse/our-research/inter
 
 profile:
   align: right
-  image: logo.jpg
+  image: logo.png
   image_circular: false # crops the image to make it circular
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
