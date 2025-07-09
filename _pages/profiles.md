@@ -11,19 +11,13 @@ profiles:
   # and create one content file for each profile inside _pages/
   - content: people_faculty.md
   - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: people_greg.jpg
+    content: people_greg.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
-  - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>greg@greggay.com</p>
+      <p>Jupiter 481</p>
+  - content: people_postdocs.md
+  - content: people_phd.md
+  - content: people_other.md
 ---
