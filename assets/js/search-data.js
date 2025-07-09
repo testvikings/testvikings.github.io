@@ -412,15 +412,15 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-gregory-will-serve-on-the-grading-committee-of-walid-abdeen-blekinge-institute-of-technology-on-october-7-2025",
-          title: 'Gregory will serve on the grading committee of Walid Abdeen (Blekinge Institute of...',
-          description: "",
-          section: "News",},{id: "news-welcome-to-our-webpage",
+            },},{id: "news-welcome-to-our-webpage",
           title: 'Welcome to our webpage!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
-            },},{id: "projects-project-1",
+            },},{id: "news-gregory-will-serve-on-the-grading-committee-of-walid-abdeen-blekinge-institute-of-technology-on-october-7-2025",
+          title: 'Gregory will serve on the grading committee of Walid Abdeen (Blekinge Institute of...',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
