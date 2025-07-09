@@ -38,8 +38,8 @@ ninja.data = [{
             window.location.href = "/teaching/";
           },
         },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
+          title: "People",
+          description: "Mambers of the TestVikings Laboratory",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
