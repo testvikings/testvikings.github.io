@@ -197,6 +197,10 @@ exclude:
   - _pages/people_phd.md
   - _pages/people_other.md
   - _pages/people_greg.md
+  - _pages/people_francisco.md
+  - _pages/people_richard.md
+  - _pages/people_robert.md
+  - _pages/people_philipp.md
 keep_files:
   - CNAME
   - .nojekyll
