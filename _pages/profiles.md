@@ -55,6 +55,40 @@ profiles:
       <p>richard.torkar (a t) chalmers.se</p><br>
       <p>Jupiter 406</p>
   - content: people_postdocs.md
+  - align: left
+    image: people_julian.jpg
+    content: people_julian.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p><a href="https://julianfrattini.github.io/">Personal Webpage</a></p>
+      <p><a href="https://scholar.google.com/citations?user=wsw2NTMAAAAJ">Google Scholar</a></p>
+      <p>julian.frattini (a t) chalmers.se</p><br>
+      <p>Jupiter 477</p>
   - content: people_phd.md
+  - align: left
+    image: people_sabina.jpeg
+    content: people_sabina.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p><a href="https://scholar.google.com/citations?user=fjDFMhcAAAAJ">Google Scholar</a></p>
+      <p>sabina.akbarova (a t) chalmers.se</p><br>
+      <p>Jupiter 476</p>
+  - align: left
+    image: people_roy.jpeg
+    content: people_roy.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>roy.a.liu (a t) ericsson.com</p><br>
+  - align: left
+    content: people_yundong.md
+  - align: left
+    content: people_jingwen.md
+  - align: left
+    image: people_esme.png
+    content: people_esme.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>lirongy (a t) chalmers.se</p><br>
+      <p>Jupiter 475</p>
   - content: people_other.md
 ---

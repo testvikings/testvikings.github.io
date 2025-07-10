@@ -201,6 +201,12 @@ exclude:
   - _pages/people_richard.md
   - _pages/people_robert.md
   - _pages/people_philipp.md
+  - _pages/people_julian.md
+  - _pages/people_sabina.md
+  - _pages/people_roy.md
+  - _pages/people_yundong.md
+  - _pages/people_jingwen.md
+  - _pages/people_esme.md
 keep_files:
   - CNAME
   - .nojekyll
