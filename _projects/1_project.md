@@ -1,81 +1,36 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Exploring the Integration of Large Language Models in Industrial Test Maintenance Processes
+description: WASP Industrial Ph.D.
+img: assets/img/proj1.png
 importance: 1
-category: work
+category: Large Language Models
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<strong>Funding Agency:</strong> Wallenberg Autonomous Systems, AI, and Software Program (WASP)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<strong>Call:</strong> Industrial Ph.D. Student Positions 2024
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<strong>Principle Investigator:</strong> Gregory Gay
+
+<strong>Involved Lab Members:</strong> Gregory Gay, Nasser Mohammadiha, Jingxiong (Roy) Liu
+
+<strong>Publications:</strong> {% cite liu2025exploringintegrationlargelanguage %}.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/proj1.png" title="Project Overview" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Project Overview
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Software testing is a crucial component of the development process. It is also notoriously expensive. Although there is an initial cost associated with creating tests, much more cost is imposed by the need for test maintenance. Automated software tools can reduce the cost and improve the quality of test maintenance. However, despite its importance and cost, there has been little research on automation of test maintenance.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+In this project, we focus on the potential of large language models (LLMs) to provide such support. LLMs are an emerging technology skilled at language analysis and transformation tasks such as translation, summarizing, and decision support due to their ability to infer semantic meaning from both natural language and software code. As a result, LLMs have shown promise in automating development and testing tasks, including test creation, documentation, and debugging.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+The purpose of this research is to develop and integrate LLMs and LLM agents - autonomous agents coupling an LLM with tool access and memory mechanisms - into the test maintenance process. We will design and investigate the strengths and limitations of LLM agents that provide two forms of support. First, we will explore how LLM agents can automate maintenance tasks, such as the creation or modification of test code. This stage includes both human-on-the-loop scenarios - where humans review the actions taken by LLMs agents before they are committed to the code repository – and full automation – where LLM agents take unsupervised action. Second, we will explore human-in-the-loop scenarios where autonomous agents serve as conversational assistants, providing targeted suggestions or guidance in response to active queries from the developers.
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+This research will be conducted by an industrial Ph.D. student at Ericsson AB and Chalmers University of Technology. We, the collaborators in this project, recently performed an exploratory case study to explore potential applications of LLM agents in test maintenance. Based on our results, we have identified fundamental research questions in relation to clear industrial challenges. We aim to provide general scientific solutions that will benefit both Ericsson and other companies developing critical software.
