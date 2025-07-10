@@ -71,9 +71,9 @@ ninja.data = [{
           section: "News",},{id: "news-gregory-will-as-external-examiner-for-islam-elgendy-university-of-sheffield-in-october-2025",
           title: 'Gregory will as external examiner for Islam Elgendy (University of Sheffield) in October...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-exploring-the-integration-of-large-language-models-in-industrial-test-maintenance-processes",
+          title: 'Exploring the Integration of Large Language Models in Industrial Test Maintenance Processes',
+          description: "WASP Industrial Ph.D.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
