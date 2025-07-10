@@ -4,7 +4,7 @@ title: Exploring the Integration of Large Language Models in Industrial Test Mai
 description: WASP Industrial Ph.D.
 img: assets/img/proj1.png
 importance: 1
-category: Large Language Models
+category: Artificial Intelligence
 related_publications: true
 ---
 

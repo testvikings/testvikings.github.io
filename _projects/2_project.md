@@ -1,81 +1,34 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: TestExtender: Using Large Language Models to Augment Software Test Suites
+description: WASP Academic Ph.D.
+img: assets/img/proj2.png
+importance: 1
+category: Artificial Intelligence
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<strong>Funding Agency:</strong> Wallenberg Autonomous Systems, AI, and Software Program (WASP)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<strong>Call:</strong> Academic Doctoral Student Projects 2025
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<strong>Principle Investigator:</strong> Gregory Gay
+
+<strong>Involved Lab Members:</strong> Gregory Gay, Francisco Gomes de Oliveira Neto, Jingwen Wu, Yundong Shen
+
+<strong>Publications:</strong> Project starting autumn 2025.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/proj2.png" title="Project Overview" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Project Overview
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Software testing is crucially important in ensuring the quality of complex software systems, but also difficult and labor-intensive. Artificial intelligence techniques such as large language models (LLMs)—machine learning models trained on massive text corpora—have shown great promise in partially relieving the burden of the testing process by, e.g., automating test generation, suggesting assertions, or providing planning support. However, LLM-based test generation also suffers from significant issues, including uncompilable code, low code coverage, hallucinated method calls, and incorrect assertions.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Current state-of-the-art research implicitly models a situation where test creation is fully automated, with no human involvement. We propose that a more effective tactic would be a hybrid approach, where humans develop the initial test suite, which is then extended and improved by LLM agents—a process known as test augmentation. By providing a core test suite for augmentation, human testers would provide rich semantic information that could be utilized by LLM agents—overcoming the inherent weaknesses of test creation conducted solely by humans or by LLMs. LLM-based test augmentation remains under-explored, but offers the potential to strengthen the base offered by a test suite and to overcome omissions in the suite. The purpose of this research is to apply LLM agents to augment human-written test suites. We focus on three important aspects of tests—their interactions with the program-under-test, assertions used to check program correctness, and readability—a critical requirement for effective debugging. Enhancing these three aspects will enable developers to detect and correct complex faults. We propose the creation of an extensible framework, TestExtender that augments the interactions, assertions, and readability of human-written test suites. In particular, we focus on two forms of support. First, we will explore the use of autonomous LLM Agents that act with minimal human intervention. Second, we will explore human-in-the-loop scenarios where LLM agents serve as conversational partners for human testers.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+TestExtender could potentially offer significant improvements to the efficiency and effectiveness of software testers, reducing the human effort and tremendous financial cost required to produce effective test suites and improving the quality of increasingly-complex modern software.
