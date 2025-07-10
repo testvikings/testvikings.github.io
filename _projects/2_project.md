@@ -3,7 +3,7 @@ layout: page
 title: TestExtender: Using Large Language Models to Augment Software Test Suites
 description: WASP Academic Ph.D.
 img: assets/img/proj2.png
-importance: 1
+importance: 2
 category: Artificial Intelligence
 related_publications: true
 ---
