@@ -27,4 +27,4 @@ We come over land and sea to break your software!
 
 We are the TestVikings laboratory at Chalmers University of Technology and University of Gothenburg. Together, we conduct research on all aspects of software testing, including methods, measurements, automation, and domain-specific approaches (e.g., in automotive, AI and machine learning-based systems, or healthcare).
 
-This lab currently includes X faculty, Y post-docs, and Z Ph.D. students. 
+This lab currently includes five faculty, one post-doc, and five Ph.D. students. 
