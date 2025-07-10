@@ -28,6 +28,32 @@ profiles:
       <p><a href="https://scholar.google.com/citations?user=VemqkeEAAAAJ">Google Scholar</a></p>
       <p>robert.feldt (a t) chalmers.se</p><br>
       <p>Jupiter 483</p>
+  - align: right
+    image: people_francisco.png
+    content: people_francisco.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p><a href="https://scholar.google.com/citations?user=RDgaTXMAAAAJ">Google Scholar</a></p>
+      <p>francisco.gomes (a t) cse.gu.se</p><br>
+      <p>Jupiter 482</p>
+  - align: right
+    image: people_philipp.png
+    content: people_philipp.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p><a href="https://www.philippleitner.net/">Personal Webpage</a></p>
+      <p><a href="https://scholar.google.com/citations?user=wZ9f8CAAAAAJ">Google Scholar</a></p>
+      <p>philipp.leitner (a t) chalmers.se</p><br>
+      <p>Jupiter 408</p>
+  - align: right
+    image: people_richard.jpeg
+    content: people_richard.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p><a href="https://torkar.github.io/">Personal Webpage</a></p>
+      <p><a href="https://scholar.google.com/citations?user=yNR3XUMAAAAJ">Google Scholar</a></p>
+      <p>richard.torkar (a t) chalmers.se</p><br>
+      <p>Jupiter 406</p>
   - content: people_postdocs.md
   - content: people_phd.md
   - content: people_other.md
