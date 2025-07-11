@@ -76,9 +76,9 @@ ninja.data = [{
           description: "WASP Industrial Ph.D.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-testextender-using-large-language-models-to-augment-software-test-suites",
+          title: 'TestExtender - Using Large Language Models to Augment Software Test Suites',
+          description: "WASP Academic Ph.D.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{
