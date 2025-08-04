@@ -4,7 +4,7 @@ title: Trustworthy and Responsible AI-Centric Test Engineering (TRACE)
 description: Software Center
 img: assets/img/proj3.png
 importance: 3
-category: Testing Practices, Artificial Intelligence
+category: Testing Practices
 related_publications: true
 ---
 
