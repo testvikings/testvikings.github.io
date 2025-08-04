@@ -41,7 +41,7 @@ The goal of this project is to explore, investigate, implement, and evaluate a t
 <ul>
 <li>Uses AI and ML to augment, rather than replace, developers.</li>
 <li>Enables developers to make effective, data-driven decisions during testing. </li>
-<li>Offers trustworthy, repeatable, and explainable results.<li>
+<li>Offers trustworthy, repeatable, and explainable results.</li>
 </ul>
 
 This project is an umbrella for multiple related sub-projects. The topics currently under investigation inclide:
