@@ -16,6 +16,8 @@ related_publications: true
 
 <strong>Involved Lab Members:</strong> Gregory Gay, Nasser Mohammadiha, Jingxiong (Roy) Liu
 
+<strong>Industrial Collaborator:</strong> Ericsson
+
 <strong>Publications:</strong> {% cite liu2025exploringintegrationlargelanguage %}.
 
 <div class="row">
