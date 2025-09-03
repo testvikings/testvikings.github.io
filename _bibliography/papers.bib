@@ -1,6 +1,44 @@
 ---
 ---
 
+@misc{25multiobj,
+      abbr={STVR},
+      title={Exploring the Interaction of Code Coverage and Non-Coverage Objectives in Search-Based Test Generation}, 
+      author={Afonso Fontes and Gregory Gay and Robert Feldt},
+      year={2025},
+      url={https://greg4cr.github.io/pdf/25multiobj.pdf}, 
+      abstract={Context: Search-based test generation typically targets structural coverage of source
+code. Past research suggests that targeting coverage alone is insufficient to yield
+tests that achieve common testing goals (e.g., discovering situations where a class-
+under-test throws exceptions) or detect faults. A suggested alternative is to perform
+multi-objective optimization targeting both coverage and additional objectives di-
+rectly related to the goals of interest. However, it is not fully clear how coverage and
+goal-based objectives interact during the generation process and what effects this in-
+teraction will have on the generated test suites.
+
+Objectives: We assess five hypotheses about multi-objective test generation and the
+relationships between coverage-based and goal-based objectives, focusing on the
+effects on coverage, goal attainment, fault detection, test suite size, test case length,
+and the impact of the search budget.
+
+Methods: We generate test suites using the EvoSuite framework targeting Branch
+Coverage, three testing goals—Exception Count, Output Coverage, and Execution
+Time—and combinations of coverage and goal-based objectives.
+
+Results: Targeting multiple objectives does not reduce code coverage, yields no or
+minor reductions in goal attainment, and detects more faults compared to single-
+target configurations. It produces larger test suites, but test case length is not
+increased. The benefits of multi-objective optimization are often more limited than
+hypothesized in past research, but improved fault detection is still sufficient to rec-
+ommend multi-objective optimization over targeting coverage or testing goals alone.
+
+Conclusion: Our study offers insights and guidance into how coverage and goal-
+based objectives interact during multi-objective test generation.},
+      journal = {To appear, Software Testing, Verification, and Validation},           
+      pdf={https://greg4cr.github.io/pdf/25multiobj.pdf},
+      selected={true}
+}
+
 @article{LONNFALT2025112202,
 abbr={JSS},
 title = {An intelligent test management system for optimizing decision making during software testing},
