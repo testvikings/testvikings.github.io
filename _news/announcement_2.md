@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Gregory will serve on the grading committee of <a href="https://scholar.google.com/citations?user=nna_TT4AAAAJ&hl=en&oi=ao">Walid Abdeen</a> (Blekinge Institute of Technology) on October 7, 2025.
+Gregory will serve on the grading committee of <a href="https://scholar.google.com/citations?user=nna_TT4AAAAJ&hl=en&oi=ao">Waleed Abdeen</a> (Blekinge Institute of Technology) on October 7, 2025.
