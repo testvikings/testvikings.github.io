@@ -82,8 +82,6 @@ profiles:
   - align: left
     content: people_yundong.md
   - align: left
-    content: people_jingwen.md
-  - align: left
     image: people_esme.png
     content: people_esme.md
     image_circular: false # crops the image to make it circular

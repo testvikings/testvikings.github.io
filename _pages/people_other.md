@@ -7,6 +7,11 @@
 </ul>
 
 <h4><strong>Master's and Bachelor's Students</strong></h4>
-<ul>
-<li> Shahd Metwally (Master's student, research assistant)</li>
+<ul> 
+<li> Lialia Beniaminova (Master's thesis student, 2026)</li>
+<li> Zhuangzhuang Gong (Master's thesis student, 2026)</li>
+<li> Pradip Gotame (Master's thesis student, 2026)</li>
+<li> Mohammadali Rashidfarokhi (Master's thesis student, 2026)</li>
+<li> Elias Samantzis (Master's thesis student, 2026)</li>
+<li> Shahd Metwally (Master's student, research assistant and thesis student, 2025-26)</li>
 </ul>
