@@ -14,7 +14,7 @@ related_publications: true
 
 <strong>Principle Investigator:</strong> Gregory Gay
 
-<strong>Involved Lab Members:</strong> Gregory Gay, Francisco Gomes de Oliveira Neto, Jingwen Wu, Yundong Shen
+<strong>Involved Lab Members:</strong> Gregory Gay, Francisco Gomes de Oliveira Neto, Yundong Shen
 
 <strong>Publications:</strong> Project starting autumn 2025.
 
