@@ -18,7 +18,7 @@ related_publications: true
 
 <strong>Industrial Collaborators:</strong> Ericsson, Grudfos, Volvo AB, Volvo Car Corporation, Volvo Construction Equipment, Zenseact
 
-<strong>Publications:</strong> {% cite 10.1145/3691620.3695273 %}, {% cite 26llmlog %} 
+<strong>Publications:</strong> {% cite 10.1145/3691620.3695273 %}, {% cite 26llmlog %}, {% cite 26folklore %} 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
