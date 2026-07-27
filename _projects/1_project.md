@@ -18,7 +18,7 @@ related_publications: true
 
 <strong>Industrial Collaborator:</strong> Ericsson
 
-<strong>Publications:</strong> {% cite liu2025exploringintegrationlargelanguage %}.
+<strong>Publications:</strong> {% cite liu2025exploringintegrationlargelanguage%}, {% cite liu2026explorationagenticinformationfusion%}.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
