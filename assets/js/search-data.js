@@ -122,6 +122,11 @@ ninja.data = [{
           description: "Software Center",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-automated-performance-improvement-with-large-language-models",
+          title: 'Automated Performance Improvement With Large Language Models',
+          description: "WASP Academic Ph.D.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
             },},{
         id: 'social-email',
         title: 'email',
