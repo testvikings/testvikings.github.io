@@ -5,7 +5,7 @@ permalink: /projects/
 description: A selection of the current research projects in our lab.
 nav: true
 nav_order: 3
-display_categories: [Artificial Intelligence, Testing Practices]
+display_categories: [Artificial Intelligence, Testing Practices, Software Quality]
 horizontal: false
 ---
 
